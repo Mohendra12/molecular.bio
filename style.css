@@ -105,6 +105,14 @@ a {
     background-color: mediumaquamarine;
 }
 
+.collapse {
+  cursor: pointer;
+  padding: 5px;
+}
+.collapse:hover {
+  color: grey;
+}
+
 .content {
     display: none;
     padding: 10px;
