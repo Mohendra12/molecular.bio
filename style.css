@@ -99,10 +99,13 @@ a {
     border: 1px solid mediumaquamarine;
     border-radius: 10px;
     text-align: left;
+    transition: 1s;
+    transform: scale(0.98)
 }
 
 .collapsible:hover {
     background-color: mediumaquamarine;
+    transform: scale(1.0)
 }
 
 .collapse {
